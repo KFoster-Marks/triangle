@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Title</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="contentText">
+			<h1>Area of a Triangle</h1>
+			<div class="columns">
+				<h2>Base & Width</h2>
+				<p>height</p>
+				<input type="number" id="h">
+				<p>base</p>
+				<input type="number" id="base"><br><br>
+				<button id="calculateAreaButton" onclick="initAllHeightBase()">Calculate Area <small>(click twice)</small></button>
+				<p class="userArea">A=<span id="userInputArea"></span></p>
+			</div>
+			<div class="columns">
+				<h2>Three Sides</h2>
+				<p>Side 1</p>
+				<input type="number" id="a">
+				<p>Side 2</p>
+				<input type="number" id="b">
+				<p>Side 3</p>
+				<input type="number" id="c"><br><br>
+				<button id="calculateAreaButtonThreeSides" onclick="initAllThreeSides()">Calculate Area <small>(click twice)</small></button>
+				<p class="userArea">A=<span id="userInputAreaThreeSides"></span></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
